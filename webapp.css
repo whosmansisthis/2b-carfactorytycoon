@@ -8,14 +8,22 @@
 	border-radius: 10px;
 	position: relative;
 	top: 90px;
-	left: 40%;
+	left: 25%;
+}
+
+.button:active {
+	background-color: purple;
 }
 
 .bank {
-	background-color:#2B5DFD;
+	background-color: #009AFF;
+	height: 100px;
 	width: 190px;
+	border-radius: 10px;
 	position: relative;
-	left: 15px;
-	top: 20px;
-	height: 50px;
+	top: 90px;
+	left: 25%;
+}
+.bank:active {
+	background-color: red;
 }
