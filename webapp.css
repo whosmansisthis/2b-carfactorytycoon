@@ -27,3 +27,16 @@
 .bank:active {
 	background-color: red;
 }
+.research {
+	background-color: #3700C8;
+	height: 100px;
+	width: 190px;
+	border-radius: 10px;
+	position: relative;
+	top: 90px;
+	left: 25%;
+}
+
+.research:active {
+	background-color: blue;
+}
