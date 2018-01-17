@@ -1,3 +1,21 @@
 @charset "UTF-8";
 /* CSS Document */
 
+.button {
+	background-color: #13A07E;
+	height: 100px;
+	width: 190px;
+	border-radius: 10px;
+	position: relative;
+	top: 90px;
+	left: 40%;
+}
+
+.bank {
+	background-color:#2B5DFD;
+	width: 190px;
+	position: relative;
+	left: 15px;
+	top: 20px;
+	height: 50px;
+}
