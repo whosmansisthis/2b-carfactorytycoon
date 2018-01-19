@@ -13,9 +13,9 @@
 	left: 25%;
 }
 
-.button:active {
+/*.button:active {
 	background-color: purple;
-}
+}*/
 
 .bank {
 	background-color: #009AFF;
@@ -26,9 +26,9 @@
 	top: 90px;
 	left: 25%;
 }
-.bank:active {
+/*.bank:active {
 	background-color: red;
-}
+}*/
 .research {
 	background-color: #3700C8;
 	height: 100px;
@@ -39,9 +39,9 @@
 	left: 25%;
 }
 
-.research:active {
+/*.research:active {
 	background-color: green;
-}
+}*/
 
 #score {
 color: #CB0003;	
