@@ -4,6 +4,7 @@
 .button {
 	background-color: #13A07E;
 	background-image: url(images/cartycoon.gif);
+	background-size:cover;
 	height: 100px; 
 	width: 190px;
 	border-radius: 10px;
