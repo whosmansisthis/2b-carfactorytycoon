@@ -6,7 +6,6 @@ var roi = 100*h;
 
 function generate() {
 	money += roi;
-	alert(money);
 }
 
 function d(val) {
