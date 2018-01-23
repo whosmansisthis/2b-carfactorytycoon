@@ -48,6 +48,7 @@ text-align: right;
 	
 	.car {
 	background-image:url(images/spinningcar.gif);
+	background-size: cover;
 	height: 100px;
 	width: 190px;
 	border-radius: 10px;
