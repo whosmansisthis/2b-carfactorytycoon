@@ -13,11 +13,11 @@ function d(val) {
 	document.getElementById("d").value = val;
 }
 
-function v(val) {
+function e(val) {
 	document.getElementById("d").value = val;
 }
  
- function e() {
+ function v() {
 	 try {
 		 d(eval(document.getElementById("d").value));
 	 }
