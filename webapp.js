@@ -16,7 +16,7 @@ function d(val) {
 function v(val) {
 	document.getElementById("d").value = val;
 }
-
+ 
  function e() {
 	 try {
 		 d(eval(document.getElementById("d").value));
@@ -25,5 +25,5 @@ function v(val) {
 		 d("Error");
 	 }
  }
-
+ 
 window.onload = setInterval(generate, 5000);
