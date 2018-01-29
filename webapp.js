@@ -1,15 +1,15 @@
 // JavaScript Document
 // Give the user their income every 5 seconds
 var money = 1000;
-var h = 1;
-var roi = 100*h;
+var research = 1;
 
 function generate() {
-	money += roi;
+	money += 100 * research;
 }
 
-function d() {
-h + 0.25;
+function research_car() {
+	research = research * 1.1;
+	money-=100;
 }
 
 function e(val) {
