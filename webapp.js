@@ -9,7 +9,7 @@ function generate() {
 }
 
 function d() {
-h += 0.25;
+h + 0.25;
 }
 
 function e(val) {
