@@ -48,10 +48,9 @@ text-align: right;
 	
 	#researchnewcar: {
 	animation-name: pulse_animation;
-	animation-duration: 4s;
 	animation-iteration-count: infinite;
 	height: 100px;
-	animation-duration: 6s;
+	
 animation-duration: 120ms;
 
 	}
@@ -84,6 +83,7 @@ animation-duration: 120ms;
     width: 100%;
   }
 }
+#
 
 
 	
@@ -103,3 +103,12 @@ vertical-align: middle;
 line-height: 90px;   
 	
 }
+#title{
+	text-align:center;
+	text-height:font-size;
+	height:auto;
+	font-size:50px
+	
+	
+	
+	}
