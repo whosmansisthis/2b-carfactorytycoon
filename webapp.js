@@ -8,8 +8,8 @@ function generate() {
 	money += roi;
 }
 
-function d(val) {
-	document.getElementById("d").value = val;
+function d() {
+ h += .25;
 }
 
 function e(val) {
