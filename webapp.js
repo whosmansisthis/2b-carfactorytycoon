@@ -34,13 +34,31 @@ function setCookie() {
     d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
     var expires = "expires="+d.toUTCString();
     document.cookie = "money=" + money + ";" + expires;
-    document.cookie = "=research" + research + ";" + expires;
+    document.cookie = "research=" + research + ";" + expires;
+}
+/*
+function loadCookies(cname) {
+    var string = document.cookie;
+	split("; ");
+	split("=");
+	key_value_pair[0];
+	key_value_pair[1];
+	alert(string);
+	
+	var name = cname + "=";
+    var decodedCookie = decodeURIComponent(document.cookie);
+    var ca = decodedCookie.split(';');
+    for(var i = 0; i <ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) == ' ') {
+            c = c.substring(1);
+        }
+        if (c.indexOf(name) == 0) {
+            return c.substring(name.length);
+        }
+    }
+    return "";
 }
 
-function loadCookies() {
-    var string = document.cookie;
-	// split("; ");
-	// split("=");
-	// key_value_pair[0];
-	alert(string);
-}
+}*/
+
