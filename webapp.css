@@ -25,6 +25,7 @@
 	position: relative;
 	top: 90px;
 	left: 25%;
+	
 }
 /*.bank:active {
 	background-color: red;
@@ -114,3 +115,8 @@ line-height: 90px;
 	
 	
 	}
+	#bank{
+		font-size:90px;
+		left:25%
+		
+		}
