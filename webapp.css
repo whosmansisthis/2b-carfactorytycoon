@@ -1,6 +1,10 @@
 @charset "UTF-8";
 /* CSS Document */
 
+body {
+	background-image:url(images/colorbackground.gif);
+	
+}
 
 .button {
 	background-image: url(images/cartycoon.gif);
@@ -22,9 +26,9 @@
 	height: 200px;
 	width: 290px;
 	border-radius: 10px;
-	position: relative;
+	position:relative;
 	top: 90px;
-	left: 25%;
+	left: 25%
 	
 }
 /*.bank:active {
