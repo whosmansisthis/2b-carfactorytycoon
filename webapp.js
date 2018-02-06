@@ -2,26 +2,26 @@
 // Give the user their income every 5 seconds
 var money = 1000;
 var research = 1;
+var research_cost = 1000;
 
 function generate() {
 	money += 100 * research;
-	e(money);
+	e();
 }
 
 function research_car() {
-	if(money >= 1000) {
-		research = research + 1.1
-		money -=1000;
-		e(money);
+	if(money >= research_cost) {
+		research = research + 0.1;
+		money -=research_cost;
+		research_cost *= 1.1;
+		e();
 	}
 }
 
 // update the value stored in javascript onto the page.
-function e(val) {
-	document.getElementById("d").value = val;
-	var money = val.toFixed(2)
-	e(money);
-	setCookie()
+function e() {
+	document.getElementById("d").value = money.toFixed(2);
+	setCookie();
 }
  
  
