@@ -52,46 +52,7 @@ border-radius: 24px;
 text-align: right; 
 	}
 	
-	#researchnewcar: {
-	animation-name: pulse_animation;
-	animation-iteration-count: infinite;
-	height: 100px;
 	
-animation-duration: 120ms;
-
-	}
-	
-
-@keyframes pulse {
-  0% {
-    background-color: #001F3F;
-  }
-  100% {
-    background-color: #FF4136;
-  
-}
-
-}
-	@keyframes pulse_animation {
-	0% { transform: scale(1.1); background-color: #FF0004}
-	50% { transform: scale(1.5); background-color:#06FFF8}
-	100% { transform: scale(1.1); background-color:#0035FF}
-	
-}
-@keyframes slidein {
-  from {
-    margin-left: 50%;
-    width: 100%;
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-}
-
-
-
 	
 	.car {
 	background-image:url(images/spinningcar.gif);
