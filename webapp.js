@@ -10,8 +10,7 @@ function generate() {
 
 function research_car() {
 	research = research * 1.1
-	e(money);
-	money - 1000;
+	money -=1000;
 	e(money);
 }
 
