@@ -9,9 +9,11 @@ function generate() {
 }
 
 function research_car() {
-	research = research * 1.1
-	money -=1000;
-	e(money);
+	if(money >= 1000) {
+		research = research * 1.1
+		money -=1000;
+		e(money);
+	}
 }
 
 // update the value stored in javascript onto the page.
