@@ -97,6 +97,9 @@ line-height: 90px;
 	}
 	
 	.upgrade {
+	background-position:center;
+	background-size:contain;
+	background-origin:border-box;
 	height: 200px; 
 	width: 290px;
 	border-radius: 10px;
@@ -119,3 +122,45 @@ line-height: 90px;
 	
 			
 			}
+			
+			.car1 {
+background-image:url(images/car01.jpg);
+			}
+.car2 {
+background-image:url(images/car02.jpg);
+}
+
+.car3 {
+background-image:url(images/car03.jpg);
+}
+
+.car4 {
+background-image:url(images/car04.jpg);
+}
+
+.car5 {
+background-image:url(images/car05.jpg);
+}
+
+.car6 {
+background-image:url(images/car06.jpg);
+}
+
+.car7 {
+background-image:url(images/car07.jpg);
+}
+
+.car8 {
+background-image:url(images/car08.jpg);
+}
+
+.newtools {
+	background-image:url(images/hammer.gif);
+	background-position:center;
+	}.hammer {
+}
+.wrench {
+	background-image:url(images/wrench.gif);
+	background-position:center;
+	background-size:contain;
+}
