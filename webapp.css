@@ -154,3 +154,7 @@ background-image:url(images/car07.jpg);
 background-image:url(images/car08.jpg);
 }
 
+.newtools {
+	background-image:url(images/hammer.gif);
+	background-position:center;
+	}
