@@ -39,11 +39,10 @@ function setCookie() {
 	document.cookie = "research_cost=" + research_cost + ";" + expires;
 }
 
-function loadCookies(cname) {
-    var string = document.cookie;
-	var name = cname + "=";
-    var ca = string.split(';');
-    for(var i = 0; i <ca.length; i++) {
+function getCookie(cname) {
+    var name = cname + "=";
+    var ca = document.cookie.split(';');
+    for(var i = 0; i < ca.length; i++) {
         var c = ca[i];
         while (c.charAt(0) == ' ') {
             c = c.substring(1);
@@ -53,8 +52,11 @@ function loadCookies(cname) {
         }
     }
     return "";
-	update();
 }
 
-
-
+function loadCookies() {
+	money = Number(getCookie("money"));
+	research = Number(getCookie("research"));
+	research_cost = Number(getCookie("research_cost"));
+	update();
+}
