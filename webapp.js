@@ -6,7 +6,7 @@ var research_cost = 1000;
 
 function generate() {
 	money += 100 * research;
-	update();
+	e();
 }
 
 function research_car() {
@@ -14,12 +14,12 @@ function research_car() {
 		research = research + 0.1;
 		money -=research_cost;
 		research_cost *= 1.1;
-		update();
+		e();
 	}
 }
 
 // update the value stored in javascript onto the page.
-function update() {
+function e() {
 	document.getElementById("d").value = money.toFixed(2);
 	setCookie();
 }
@@ -53,7 +53,7 @@ function loadCookies(cname) {
         }
     }
     return "";
-	update();
+	e();
 }
 
 
