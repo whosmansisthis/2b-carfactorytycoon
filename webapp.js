@@ -2,7 +2,7 @@
 // Give the user their income every 5 seconds
 var money = 1000;
 var research = 1;
-var research_cost = 1000;
+var car_research_cost = 1000;
 
 function generate() {
 	money += 100 * research;
@@ -10,6 +10,15 @@ function generate() {
 }
 
 function research_car() {
+	if(money >= car_research_cost) {
+		research = research + 0.1;
+		money -=car_research_cost;
+		car_research_cost *= 1.1;
+		update();
+	}
+}
+
+/*function research_car() {
 	if(money >= research_cost) {
 		research = research + 0.1;
 		money -=research_cost;
@@ -17,6 +26,7 @@ function research_car() {
 		update();
 	}
 }
+*/
 
 // update the value stored in javascript onto the page.
 function update() {
@@ -36,7 +46,7 @@ function setCookie() {
     var expires = "expires="+d.toUTCString();
     document.cookie = "money=" + money + ";" + expires;
     document.cookie = "research=" + research + ";" + expires;
-	document.cookie = "research_cost=" + research_cost + ";" + expires;
+	document.cookie = "car_research_cost=" + car_research_cost + ";" + expires;
 }
 
 function getCookie(cname) {
@@ -57,6 +67,6 @@ function getCookie(cname) {
 function loadCookies() {
 	money = Number(getCookie("money"));
 	research = Number(getCookie("research"));
-	research_cost = Number(getCookie("research_cost"));
+	car_research_cost = Number(getCookie("car_research_cost"));
 	update();
 }
