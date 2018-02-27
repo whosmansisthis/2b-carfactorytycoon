@@ -5,6 +5,21 @@ var research = 1;
 var car_research_cost = 1000;
 var tool_research_cost = 1000;
 
+var time >= 0;
+var nk >= 0;
+var sneak >= 0;
+var logang >= 0;
+var pacman >= 0;
+var optimist >= 0;
+var team10 >= 0;
+var prius >= 0;
+
+function disable_car_button() {
+	document.getElementById("nk")
+if "nk" 
+	}
+
+
 function generate() {
 	money += 100 * research;
 	update();
