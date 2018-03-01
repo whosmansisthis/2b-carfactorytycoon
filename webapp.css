@@ -2,11 +2,11 @@
 /* CSS Document */
 
 body {
-	background-image:url(images/colorbackground.gif);
+	background-image:url(images/rainbow.gif);
+	background-size:cover;
 }
 
 .button {
-	background-image: url(images/cartycoon.gif);
 	background-size:cover;
 	height: 200px; 
 	width: 290px;
@@ -20,8 +20,10 @@ body {
 /*.button:active {
 	background-color: purple;
 	/*images/cartycoon.gif*/
-
+ 
 .bank {
+	background-image:url(images/bank.gif);
+	background-position:center;
 	height: 200px;
 	width: 290px;
 	border-radius: 10px;
@@ -66,6 +68,8 @@ text-align: right;
 	left: 25%;
 }
 #researchnewcar{
+	background-image:url(images/newcar.gif);
+	background-position:center;
 	text-align: center;
 vertical-align: middle;
 line-height: 90px;   
@@ -164,4 +168,31 @@ background-image:url(images/car08.jpg);
 	background-image:url(images/wrench.gif);
 	background-position:center;
 	background-size:contain;
+}
+#d{
+border-radius:30px;
+box-sizing:300px;
+border-style:double;
+border-image:url(images/giphy.gif);
+}
+#options{
+	position: absolute;
+	left: 20%;
+	top: 10%;
+}
+#newcarresearch{
+background-image:url(images/newcar.gif);
+background-position:center;	
+background-size:cover;
+
+}
+#researchbetterequipment{
+background-image:url(images/wrench.gif);
+background-position:center;	
+background-size:cover;
+}
+#loadsave{
+background-image:url(images/dancing.gif);
+background-position:center;	
+background-size:cover;	
 }
